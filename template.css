@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-size: ;
+    
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #515467;
+    justify-content: space-between;
+    padding: 0 25px;
+    
+}
+.logo{
+    text-align: center;
+    color: rgb(226, 43, 217);
+    font-size: 22px;
+    line-height: 95px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #a809b3ca;
+}
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 300px;
+
+}
+.ul>li>a{
+    line-height: 95px;
+    color:#515467 ;
+    text-decoration-line: none; 
+    margin-left: 40px;
+}
+.ul>li>a:hover{
+    color: rgb(226, 43, 217);
+}
+#foto{
+  
+    height: 800px;
+   
+    background-position: center;
+    background: url(/imfoto.jpg) cover;
+}
+#opak{
+    width: 100%;
+    height: 800px;
+    background-color:rgba(16, 32, 124, 0.477);
+    color: white;
+}
+#opak>div{
+    padding-top: 200px;
+    text-align: center;
+}
+#buton{
+   margin-top: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: #b636ff;
+    color: white;
+    border: #b636ff solid 1px;
+    cursor: pointer;
+}
+#buton:hover{
+    background-color: #9b09ef;
+}
+h1{
+    font-size: 60px;
+   
+}
+h2{ 
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(60, 66, 88);
+    margin-bottom: 40px;
+    
+}
+
+#bolum-2{
+    display: flex;
+    
+    margin: 20px 20px;
+}
+#about-yazi{
+    width: 500px;
+    margin-left: 90px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: rgb(60, 66, 88)
+}
+#about-foto{
+    margin-left: 1000px;
+    width: 200px;
+    height: 200px;
+}
